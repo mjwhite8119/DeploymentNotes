@@ -1,0 +1,12 @@
+site_name: Software Deployment Notes
+site_url: https://mjwhite8119-software-notes.readthedocs.io
+nav:
+    - Home: 
+        - index.md
+        - 'Package Management':
+            - PackageManagement/conda.md
+
+theme: readthedocs
+python:
+  install:
+    - requirements: requirements.txt
