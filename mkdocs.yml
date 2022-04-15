@@ -1,0 +1,33 @@
+site_name: Software Deployment Notes
+site_url: https://mjwhite8119-software-notes.readthedocs.io
+nav:
+    - Home: 
+        - index.md
+        - 'Software Management':
+            - PackageManagement/conda.md
+            - PackageManagement/aptget.md
+            - PackageManagement/pip.md
+            - PackageManagement/docker.md
+            - PackageManagement/git.md
+
+        - 'Remote Access':
+            - Remote/ssh.md
+            - Remote/gstreamer.md
+
+        - 'Machine Learning':
+            - ML/pytorch.md
+            - ML/tensorflow.md
+            - ML/depthai.md
+            - ML/training.md 
+
+        - 'First Robotics': 
+            - WPI/romi.md 
+            - WPI/networkTables.md  
+
+        - 'ROS': 
+            - ROS/install.md  
+
+theme: readthedocs
+python:
+  install:
+    - requirements: requirements.txt
