@@ -10,17 +10,22 @@ nav:
             - PackageManagement/docker.md
             - PackageManagement/git.md
 
-        - 'Remote Access':
-            - Remote/ssh.md
-            - Remote/gstreamer.md
+        - 'OS Configuration':
+            - OS/configuration.md
+            - OS/linuxCommands.md
+            - OS/ssh.md
+            - OS/gstreamer.md
+            - OS/raspberryPi.md
+            - OS/jetsonNano.md
 
         - 'Machine Learning':
+            - ML/opencv.md
             - ML/pytorch.md
             - ML/tensorflow.md
             - ML/depthai.md
             - ML/training.md 
 
-        - 'First Robotics': 
+        - 'FIRST Robotics': 
             - WPI/romi.md 
             - WPI/networkTables.md  
 
