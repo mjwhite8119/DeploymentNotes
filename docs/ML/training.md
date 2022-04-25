@@ -22,3 +22,5 @@ Copy weights from our Google Drive to a folder called "weights" in our YOLO5 dir
 
 ## References
 - [How to Save and Load Model Weights in Google Colab](https://blog.roboflow.com/how-to-save-and-load-weights-in-google-colab/)
+
+- Jeremy Howard, Sylvain Gugger - [Practical Deep Learning for Coders](https://course.fast.ai/)

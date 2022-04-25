@@ -17,6 +17,7 @@ nav:
             - OS/gstreamer.md
             - OS/raspberryPi.md
             - OS/jetsonNano.md
+            - OS/brew.md
 
         - 'Machine Learning':
             - ML/opencv.md
@@ -28,6 +29,7 @@ nav:
         - 'FIRST Robotics': 
             - WPI/romi.md 
             - WPI/networkTables.md  
+            - WPI/vision.md
 
         - 'ROS': 
             - ROS/install.md  
