@@ -24,6 +24,8 @@ To convert:
 - [Depthai Documentation](https://docs.luxonis.com/en/latest/)
 - [OpenVino Notebooks](https://github.com/openvinotoolkit/openvino_notebooks)
 
+- [OpenVINO Tutorial](https://www.youtube.com/watch?v=HEntm0TUqM8&list=PLg-UKERBljNxdIQir1wrirZJ50yTp4eHv&index=20&ab_channel=IntelSoftware) - YouTube
+
 ## Errors
 -- Configuring incomplete, errors occurred!
 See also "/Users/martinwhite/DepthAI/depthai-python/build/CMakeFiles/CMakeOutput.log".

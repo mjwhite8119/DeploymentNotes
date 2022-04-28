@@ -20,6 +20,17 @@ Copy weights from our Google Drive to a folder called "weights" in our YOLO5 dir
 
     %cp /content/gdrive/My\ Drive/best.pt /content/yolov5/weights
 
+## Darknet install Jetson
+See [Jetson Nano YOLO Object Detection with TensorRT](https://gilberttanner.com/blog/jetson-nano-yolo-object-detection)  
+
+Also change the following to the Makefile before making.
+
+    NVCC=/usr/local/cuda/bin/nvcc
+
+Make sure you have git lfs installed.
+
+
+
 ## References
 - [How to Save and Load Model Weights in Google Colab](https://blog.roboflow.com/how-to-save-and-load-weights-in-google-colab/)
 

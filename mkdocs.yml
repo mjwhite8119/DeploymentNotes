@@ -25,6 +25,7 @@ nav:
             - ML/tensorflow.md
             - ML/depthai.md
             - ML/training.md 
+            - ML/modelConversion.md
 
         - 'FIRST Robotics': 
             - WPI/romi.md 
