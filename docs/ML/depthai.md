@@ -20,6 +20,30 @@ To convert:
 
     python3 -m blobconverter --openvino-xml /path/to/custom_model.xml --openvino-bin /path/to/custom_model.bin
 
+## Install DepthAI on M1 Mac
+Create a conda environment:
+
+    conda create --name DepthAIEnv39 python=3.9
+    conda activate DepthAIEnv39
+
+Install depthAI software:
+
+    python3 -m pip install -U pip
+    brew update
+    brew install cmake libusb
+    cd ~; mkdir DepthAI; cd DepthAI
+    git clone --recursive  https://github.com/luxonis/depthai-python.git
+    cd depthai-python
+
+Checkout the M1 branch:
+
+    git checkout mac_arm64_wheels
+    python3 examples/install_requirements.py
+
+Run the example:
+
+    python3 examples/ColorCamera/rgb_preview.py
+
 ## References
 - [Depthai Documentation](https://docs.luxonis.com/en/latest/)
 - [OpenVino Notebooks](https://github.com/openvinotoolkit/openvino_notebooks)

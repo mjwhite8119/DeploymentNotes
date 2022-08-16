@@ -3,12 +3,16 @@ site_url: https://mjwhite8119-software-notes.readthedocs.io
 nav:
     - Home: 
         - index.md
-        - 'Software Management':
+        - 'Development Environment'
+            - DevelopmentEnvironment/vscode.md
+            - DevelopmentEnvironment/jupyterNotebook.md
+            - DevelopmentEnvironment/git.md
+        - 'Package Management':
             - PackageManagement/conda.md
             - PackageManagement/aptget.md
             - PackageManagement/pip.md
             - PackageManagement/docker.md
-            - PackageManagement/git.md
+            
 
         - 'OS Configuration':
             - OS/configuration.md
